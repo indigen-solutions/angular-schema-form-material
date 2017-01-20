@@ -378,7 +378,6 @@ function materialDecoratorConfig(
   var sfField            = sfBuilderProvider.builders.sfField;
   var condition          = sfBuilderProvider.builders.condition;
   var array              = sfBuilderProvider.builders.array;
-  var numeric            = sfBuilderProvider.builders.numeric;
 
   var sfLayout           = sfLayout;
   var sfMessagesNode     = sfMessagesNodeHandler();
@@ -408,7 +407,7 @@ function materialDecoratorConfig(
     'default': { template: __WEBPACK_IMPORTED_MODULE_7__material_default_html___default.a, builder: defaults },
     fieldset: { template: __WEBPACK_IMPORTED_MODULE_8__material_fieldset_html___default.a, builder: [ sfField, simpleTransclusion, condition ] },
     help: { template: __WEBPACK_IMPORTED_MODULE_9__material_help_html___default.a, builder: defaults },
-    number: { template: __WEBPACK_IMPORTED_MODULE_7__material_default_html___default.a, builder: defaults.concat(numeric) },
+    number: { template: __WEBPACK_IMPORTED_MODULE_7__material_default_html___default.a, builder: defaults },
     password: { template: __WEBPACK_IMPORTED_MODULE_7__material_default_html___default.a, builder: defaults },
     radios: { template: __WEBPACK_IMPORTED_MODULE_10__material_radios_html___default.a, builder: defaults },
     'radios-inline': { template: __WEBPACK_IMPORTED_MODULE_11__material_radios_inline_html___default.a, builder: defaults },
